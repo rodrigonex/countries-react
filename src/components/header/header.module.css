@@ -1,0 +1,19 @@
+.flexRow {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid lightgray;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.flexRow span{
+    padding: 0 20px;
+}
+
+.flexRow input {
+    width: 50px;
+}
+
+

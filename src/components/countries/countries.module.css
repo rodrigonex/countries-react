@@ -1,0 +1,38 @@
+.border{
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    margin: 10px 0;
+    padding: 5px;
+}
+
+.flexRow {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.country {
+    width: 400px;
+    padding: 5px;
+    display: inline-block;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    margin: 2px;
+}
+
+.country img{
+    width: 70px;
+    height: 70px;
+    margin: 15px 0 10px 20px;
+    border-radius: 50%;
+}
+
+.country h4{
+    font-size: 14px;
+    position: relative;
+    top: -30px;
+    padding-left: 10px;
+    display: inline-block;
+}
